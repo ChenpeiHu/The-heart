@@ -1,0 +1,328 @@
+body{
+    background: #FAFAFA;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid transparent;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+div#navlogo{
+	height: 1600px;
+}
+
+
+hr{
+	width: 50px;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+	div#more{
+		background-color: grey;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		height: 30px;
+		padding: 4px 0 0 0;
+		color: white;
+		text-align: center;
+		box-shadow: inset 5px 10px #848484;
+	}
+	
+	header{
+		background-color: #2E2E2E;
+		height: 50px;
+		text-align: right;
+		padding-top: 1px;
+		padding-right: 10px;
+		color: white;
+	}
+	
+	.logosize{
+		margin: 20px;
+	}
+	
+	p{
+		margin: 20px;
+		color: grey;
+	}
+	
+	a.linkstyle{
+		text-decoration: none;
+		color: grey;
+	}
+	
+	.paddingp{
+	padding: 0;
+	margin: 0 0 0 20px;;
+	}
+	
+	div.teksthulp{
+		background-color: black;
+	}
+	
+	div.infoveld{
+		background-color: white;
+		height: 72px;
+		width: 22.9%;
+		margin: 288px 0 0px -360px;
+		text-align: center;
+		z-index: 1000;
+		padding: 0px 0 0 0;
+	}
+	
+	h3{
+		margin: 5px 0 0 0;
+	}
+	
+.dropbtn {
+	background-color: #393B3C;
+	border: none;
+	cursor: pointer;
+	width: 68px;
+	height: 51px;
+	list-style-type:  none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #393B3C;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: grey;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: block;
+	background-color: grey;
+	border-radius: 5px;
+	text-align: left;
+	margin: 5px auto;
+	width: 60%;
+}
+
+.dropdown-content a:hover {
+	background-color: #E9E9E9;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+	
+	div.icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+div#header{
+	background-color: black;
+	display: inline;
+	height: 100px;
+	width: 1920px;
+	text-align: left;
+}
+
+
+@media only screen and (max-width: 600px){
+	/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+	border: 1px solid transparent;
+}
+	
+	.logosize{
+		height: 130px;
+		width: 130px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	.imgsizing{
+		float: left;
+		height: 320px;
+		width: 320px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	div#navlogo{
+		height: 250px;
+		
+	}
+
+	p{
+		margin: 0 0 0 20px;
+		color: grey;
+	}
+	
+	div#more{
+		background-color: grey;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		height: 25px;
+		width: 100%;
+	}
+	
+	div.infoveld{
+		background-color: white;
+		height: 60px;
+		width: 291px;
+		margin: 255px 0 0px -305px;
+		padding-top: 0;
+		text-align: center;
+	}
+	
+	
+	p{
+		color: transparent;
+	}
+	
+	p.welnodig{
+		color: grey;
+		text-decoration: none;
+	}
+	
+	hr{
+		border-color: transparent;
+	}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+	/* For mobile tablets: */
+[class*="col-"] {
+    width: 100%;
+	border: 1px solid transparent;
+}
+	
+	.logosize{
+		height: 130px;
+		width: 130px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	.imgsizing{
+		float: left;
+		height: 320px;
+		width: 320px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	div#navlogo{
+		height: 250px;
+		
+	}
+
+	p{
+		margin: 0 0 0 20px;
+		color: grey;
+	}
+	
+	div#more{
+		background-color: grey;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		height: 25px;
+		width: 100%;
+	}
+	
+	div.infoveld{
+		background-color: white;
+		height: 60px;
+		width: 291px;
+		margin: 255px 0 0px -305px;
+		padding-top: 0;
+		text-align: center;
+	}
+	
+	
+	p{
+		color: transparent;
+	}
+	
+	p.welnodig{
+		color: grey;
+		text-decoration: none;
+	}
+	
+	hr{
+		border-color: transparent;
+	}
+
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .header {
+        display: none !important;
+    }
+	
+	
+
+}
+
+@media screen and (max-width: 1000px) {
+    .paddingp {
+        display: none !important;
+    }
+
+}
